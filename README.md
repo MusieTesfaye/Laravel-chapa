@@ -1,9 +1,9 @@
-# Laravel Chapa Payment Gateway
+# Laravel-chapa a laravel package to accept Payment with Chapa API.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/musie/laravel-chapa.svg?style=flat-square)](https://packagist.org/packages/musie/laravel-chapa)
 [![Total Downloads](https://img.shields.io/packagist/dt/musie/laravel-chapa.svg?style=flat-square)](https://packagist.org/packages/musie/laravel-chapa)
 
-A Laravel package to integrate the Chapa payment gateway easily into your Laravel applications.
+A Laravel package to integrate the Chapa payment gateway easily into your Laravel applications. (It supports Laravel 11)
 
 ## Installation
 
