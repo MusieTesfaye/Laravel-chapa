@@ -1,0 +1,29 @@
+{
+    "name": "musie/laravel-chapa",
+    "description": "A Laravel package to integrate Chapa payment gateway",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Musie\\LaravelChapa\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musie\\LaravelChapa\\ChapaServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Musie",
+            "email": "tesfayemusie48@gmail.com"
+        }
+    ]
+}
