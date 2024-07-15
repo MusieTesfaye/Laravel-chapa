@@ -12,14 +12,14 @@ class ChapaServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'chapa');
         $this->publishes([
-            __DIR__.'/../config/chapa.php' => config_path('chapa.php'),
+            __DIR__.'/config/chapa.php' => config_path('chapa.php'),
         ]);
     }
 
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/chapa.php', 'chapa'
+            __DIR__.'/config/chapa.php', 'chapa'
         );
 
         $this->app->singleton('chapa', function () {
