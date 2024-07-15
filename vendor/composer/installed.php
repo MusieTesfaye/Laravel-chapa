@@ -3,7 +3,7 @@
         'name' => 'musie/laravel-chapa',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '7bbabfb6f4d9183ad657d6f76e1697d477574fed',
+        'reference' => '254991a6788578a68d1e31ff0f8bdf2dfd428f9d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -103,7 +103,7 @@
         'musie/laravel-chapa' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '7bbabfb6f4d9183ad657d6f76e1697d477574fed',
+            'reference' => '254991a6788578a68d1e31ff0f8bdf2dfd428f9d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

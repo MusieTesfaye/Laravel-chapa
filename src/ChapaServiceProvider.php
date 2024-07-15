@@ -11,9 +11,31 @@ class ChapaServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'chapa');
+        
+        // Publish configuration
         $this->publishes([
             __DIR__.'/config/chapa.php' => config_path('chapa.php'),
-        ]);
+        ], 'config');
+        
+        // Publish controllers
+        $this->publishes([
+            __DIR__.'/controllers/ChapaController.php' => app_path('Http/Controllers/Chapa'),
+        ], 'controllers');
+        
+        // Publish facades
+        $this->publishes([
+            __DIR__.'/Facades/Chapa.php' => app_path('Facades/Chapa'),
+        ], 'facades');
+        
+        // Publish views
+        $this->publishes([
+            __DIR__.'/../resources/views' => resource_path('views/musie'),
+        ], 'views');
+        
+        // Publish services
+        $this->publishes([
+            __DIR__.'/Services/ChapaService' => app_path('Services/Chapa'),
+        ], 'services');
     }
 
     public function register()
