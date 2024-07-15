@@ -25,5 +25,7 @@
             "name": "Musie",
             "email": "tesfayemusie48@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
