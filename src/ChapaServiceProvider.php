@@ -19,7 +19,7 @@ class ChapaServiceProvider extends ServiceProvider
         
         // Publish controllers
         $this->publishes([
-            __DIR__.'/controllers/ChapaController.php' => app_path('Http/Controllers/Chapa'),
+            __DIR__.'/controllers/ChapaController.php' => app_path('Http/Controllers'),
         ], 'controllers');
         
         // Publish facades
@@ -34,7 +34,7 @@ class ChapaServiceProvider extends ServiceProvider
         
         // Publish services
         $this->publishes([
-            __DIR__.'/Services/ChapaService' => app_path('Services/Chapa'),
+            __DIR__.'/Services/ChapaService.php' => app_path('Services/Chapa'),
         ], 'services');
     }
 
